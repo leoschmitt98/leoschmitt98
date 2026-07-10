@@ -30,6 +30,31 @@ Requirements → Test Planning → Smart Recorder → Automation Builder → QA 
 
 `STATUS / ACTIVE DEVELOPMENT`
 
+### QA Orbit in Action
+
+**Current status:** a private, local-first application running with React, Express, and SQL Server. The product is under active development, with its automation foundations receiving the most recent major update.
+
+#### Implemented modules
+
+- **Smart Recorder** — captures manual browser interactions and exports structured, automation-ready blueprints.
+- **Automation Builder** — generates and runs web E2E workflows for Cypress, with initial Playwright and Selenium support.
+- **QA Runner** — discovers and executes Cypress suites from controlled external workspaces.
+- **Database Explorer** — imports schemas, maps relationships, searches metadata, and generates reviewable SELECT queries.
+- **SQL Quality Analyzer** — evaluates captured SQL through local rules, risk classification, and environment comparison.
+- **QA Orbit Labs** — connects practical QA challenges, public test environments, tools, and progress tracking.
+
+#### Current focus
+
+Neutral automation blueprints, multi-framework generation, controlled execution, reusable test batteries, and traceable run history.
+
+#### Engineering principles
+
+`LOCAL-FIRST` · `MODULAR` · `FRAMEWORK-AWARE` · `HUMAN-IN-CONTROL` · `SECURE EXECUTION`
+
+Commands are allowlisted, execution logs are sanitized, generated SQL is review-only, and AI context is prepared locally before any external use.
+
+> **QA Orbit turns quality signals into reusable engineering context.**
+
 <br />
 
 <div align="center">
