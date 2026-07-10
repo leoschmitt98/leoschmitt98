@@ -169,4 +169,4 @@ O Hero possui duas variantes derivadas da mesma geometria:
 
 ### Estratégia de publicação
 
-O renderer do README do GitHub não reproduziu o CSS interno do SVG no teste público. O SVG animado permanece como fonte, e a publicação usa um GIF de 120 frames, 40 segundos e 1000 × 467 px renderizado a partir dele. Um elemento `<picture>` entrega `hero-static.svg` quando `prefers-reduced-motion: reduce` está ativo.
+O renderer do README do GitHub não reproduziu o CSS interno do SVG no teste público. O SVG animado permanece como fonte, e a publicação usa diretamente um GIF de 120 frames, 40 segundos e 1000 × 467 px renderizado a partir dele. O SVG estático permanece disponível como fallback manual.

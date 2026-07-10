@@ -1,8 +1,5 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/svg/hero/hero-static.svg" />
-    <img src="assets/animations/hero/hero-animated.gif" width="100%" alt="Leonardo Schmitt — QA Engineer, automation specialist, and full-stack builder creating QA Orbit." />
-  </picture>
+  <img src="assets/animations/hero/hero-animated.gif" width="100%" alt="Leonardo Schmitt — QA Engineer, automation specialist, and full-stack builder creating QA Orbit." />
 </div>
 
 <br />
