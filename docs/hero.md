@@ -142,8 +142,7 @@ Na integração futura, o texto essencial também existirá em Markdown acessív
 O Hero possui duas variantes derivadas da mesma geometria:
 
 - `assets/svg/hero/hero-static.svg`: versão estática e fallback publicado no README.
-- `assets/svg/hero/hero-animated.svg`: versão com movimento sutil para validação no GitHub.
-- `assets/animations/hero/hero-animated.gif`: render final compatível com o README do GitHub.
+- `assets/svg/hero/hero-animated.svg`: versão publicada com movimento SMIL compatível com o GitHub.
 
 ### Ajustes tipográficos
 
@@ -157,16 +156,15 @@ O Hero possui duas variantes derivadas da mesma geometria:
 
 ### Movimento
 
-- Órbita externa: rotação linear de 40 segundos.
-- Órbita interna: rotação inversa de 20 segundos.
-- Núcleo: pulso entre 98,5% e 101,8% em 5 segundos.
-- Signal nodes: pulsos alternados de opacidade em 5 segundos.
+- Órbita externa: `animateTransform` linear de 40 segundos.
+- Órbita interna: `animateTransform` inverso de 24 segundos.
+- Núcleo: pulso de raio e opacidade em 5 segundos.
 - Telemetria: deslocamento lento de dash em 10 segundos.
-- Módulos: flutuação independente entre 1,5 e 2 px em ciclos de 5, 8 e 10 segundos, sem movimentar os grupos de texto separadamente.
+- Módulos: `animateMotion` de 36 segundos em uma órbita compartilhada, com fases separadas e `rotate="0"` para manter os textos horizontais.
 - Grid, copy e CTA permanecem estáticos.
 
-`prefers-reduced-motion: reduce` desativa todas as animações e preserva a composição completa.
+O SVG estático preserva a composição completa como fallback manual para contextos sem SMIL ou com movimento desativado.
 
 ### Estratégia de publicação
 
-O renderer do README do GitHub não reproduziu o CSS interno do SVG no teste público. O SVG animado permanece como fonte, e a publicação usa diretamente um GIF de 120 frames, 40 segundos e 1000 × 467 px renderizado a partir dele. O SVG estático permanece disponível como fallback manual.
+O renderer do README do GitHub não reproduziu de forma confiável as transformações CSS internas. A versão publicada utiliza SMIL nativo (`animate`, `animateMotion` e `animateTransform`), seguindo o mecanismo comprovado em SVGs que iniciam automaticamente no GitHub, sem GIF, vídeo ou botão de reprodução.
