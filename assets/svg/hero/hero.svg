@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="hero-title hero-description">
+  <title id="hero-title">Leonardo Schmitt — QA Engineer and creator of QA Orbit</title>
+  <desc id="hero-description">A dark SaaS-style interface with Leonardo Schmitt's introduction beside the QA Orbit quality intelligence system, connecting automation, artificial intelligence, and software engineering.</desc>
+
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#081126"/>
+      <stop offset="1" stop-color="#070A1B"/>
+    </linearGradient>
+    <linearGradient id="hero-accent" x1="682" y1="130" x2="1058" y2="438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <radialGradient id="hero-cyan-field" cx="0" cy="0" r="1" gradientTransform="translate(891 277) rotate(90) scale(247 290)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-violet-field" cx="0" cy="0" r="1" gradientTransform="translate(1120 520) rotate(-135) scale(270 310)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-core" cx="0" cy="0" r="1" gradientTransform="translate(866 252) rotate(52) scale(139)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#153B58"/>
+      <stop offset="0.56" stop-color="#0D1B38"/>
+      <stop offset="1" stop-color="#0A1024"/>
+    </radialGradient>
+    <pattern id="hero-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#3B82F6" stroke-opacity="0.08" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1" fill="#22D3EE" fill-opacity="0.12"/>
+    </pattern>
+    <clipPath id="hero-frame-clip">
+      <rect x="1" y="1" width="1198" height="558" rx="23"/>
+    </clipPath>
+    <filter id="hero-soft-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g id="hero-background" clip-path="url(#hero-frame-clip)">
+    <rect width="1200" height="560" fill="url(#hero-bg)"/>
+    <rect width="1200" height="560" fill="url(#hero-grid)"/>
+    <rect x="570" width="630" height="560" fill="url(#hero-cyan-field)"/>
+    <rect x="760" y="260" width="440" height="300" fill="url(#hero-violet-field)"/>
+    <path d="M40 108H252M40 452H180M1024 72H1160M1092 488H1160" stroke="#233455" stroke-width="1"/>
+    <path d="M40 108V88M1160 72V92M40 452V472M1160 488V468" stroke="#22D3EE" stroke-opacity="0.45"/>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="558" rx="23" fill="none" stroke="#233455" stroke-width="2"/>
+  <path d="M26 72V26H72M1128 26H1174V72M1174 488V534H1128M72 534H26V488" fill="none" stroke="url(#hero-accent)" stroke-opacity="0.65" stroke-width="1.5"/>
+
+  <g id="hero-copy">
+    <g transform="translate(72 116)">
+      <circle cx="5" cy="-4" r="4" fill="#2DD4BF"/>
+      <path d="M18-4H50" stroke="#2DD4BF" stroke-opacity="0.55"/>
+      <text x="62" y="0" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="2">QA ENGINEER · FULL-STACK BUILDER</text>
+    </g>
+
+    <text x="68" y="190" fill="#E6F1FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.5">LEONARDO</text>
+    <text x="68" y="246" fill="url(#hero-accent)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.5">SCHMITT</text>
+
+    <text x="72" y="304" fill="#E6F1FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="500">Engineering <tspan fill="#22D3EE">quality</tspan> beyond testing.</text>
+
+    <text x="72" y="347" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">
+      <tspan x="72" dy="0">I build intelligent systems where automation, AI,</tspan>
+      <tspan x="72" dy="26">and software engineering converge.</tspan>
+    </text>
+
+    <g id="hero-cta" transform="translate(72 416)">
+      <rect width="194" height="44" rx="8" fill="#0E2438" stroke="#22D3EE" stroke-opacity="0.7"/>
+      <path d="M18 22H34M29 17L34 22L29 27" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="27" fill="#E6F1FF" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1.2">EXPLORE QA ORBIT</text>
+      <path d="M194 22H338" stroke="#22D3EE" stroke-opacity="0.26" stroke-dasharray="3 7"/>
+      <circle cx="338" cy="22" r="3" fill="#22D3EE" fill-opacity="0.7"/>
+    </g>
+  </g>
+
+  <g id="hero-orbit-system">
+    <g id="hero-orbits" transform="rotate(-8 888 280)" fill="none">
+      <ellipse cx="888" cy="280" rx="304" ry="220" stroke="#233455" stroke-width="1"/>
+      <ellipse cx="888" cy="280" rx="220" ry="154" stroke="#3B82F6" stroke-opacity="0.38" stroke-width="1.2" stroke-dasharray="2 8"/>
+      <ellipse cx="888" cy="280" rx="128" ry="92" stroke="#22D3EE" stroke-opacity="0.38" stroke-width="1.2"/>
+      <path d="M600 209C654 117 759 63 873 61" stroke="#22D3EE" stroke-opacity="0.55" stroke-width="1.5"/>
+      <path d="M1037 409C1095 380 1138 337 1169 286" stroke="#8B5CF6" stroke-opacity="0.52" stroke-width="1.5"/>
+    </g>
+
+    <g id="hero-telemetry" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#94A3B8">
+      <text x="619" y="106" opacity="0.62">ORBIT / 01</text>
+      <path d="M619 116H682L709 143" fill="none" stroke="#233455"/>
+      <circle cx="709" cy="143" r="2.5" fill="#22D3EE"/>
+
+      <text x="1044" y="169" opacity="0.62">SIGNAL 98.7</text>
+      <path d="M1038 177H1113" stroke="#233455"/>
+      <path d="M1044 187V181M1052 187V178M1060 187V183M1068 187V175M1076 187V179" stroke="#2DD4BF" stroke-width="2"/>
+
+      <text x="1035" y="416" opacity="0.62">QOS / STABLE</text>
+      <path d="M1033 425H1114" stroke="#233455"/>
+      <circle cx="1123" cy="425" r="3" fill="#2DD4BF"/>
+
+      <text x="656" y="467" opacity="0.5">X 0888 · Y 0280</text>
+      <path d="M656 450H722L748 424" fill="none" stroke="#233455"/>
+    </g>
+
+    <g id="hero-core" transform="translate(888 280)">
+      <circle r="84" fill="#22D3EE" fill-opacity="0.07" filter="url(#hero-soft-glow)"/>
+      <circle r="72" fill="url(#hero-core)" stroke="#22D3EE" stroke-opacity="0.7" stroke-width="1.5"/>
+      <circle r="62" fill="none" stroke="#3B82F6" stroke-opacity="0.22" stroke-dasharray="2 6"/>
+      <path d="M-72 0H-56M56 0H72M0-72V-56M0 56V72" stroke="#22D3EE" stroke-opacity="0.8"/>
+      <circle cx="-16" cy="-28" r="2.5" fill="#22D3EE"/>
+      <circle cx="0" cy="-28" r="2.5" fill="#3B82F6"/>
+      <circle cx="16" cy="-28" r="2.5" fill="#8B5CF6"/>
+      <text x="0" y="2" text-anchor="middle" fill="#E6F1FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0.5">QA ORBIT</text>
+      <text x="0" y="22" text-anchor="middle" fill="#22D3EE" font-family="JetBrains Mono, Consolas, monospace" font-size="7.5" font-weight="600" letter-spacing="1.5">QUALITY INTELLIGENCE</text>
+      <text x="0" y="34" text-anchor="middle" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="2">SYSTEM</text>
+    </g>
+
+    <g id="hero-module-automation" transform="translate(1030 121)">
+      <path d="M-12 34L-79 106" stroke="#22D3EE" stroke-opacity="0.36" stroke-dasharray="3 6"/>
+      <circle r="34" fill="#0B172B" stroke="#22D3EE" stroke-opacity="0.72"/>
+      <path d="M-13-9L-3 0L-13 9M3-9L13 0L3 9" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="-44" y="43" width="88" height="22" rx="11" fill="#0B1226" stroke="#233455"/>
+      <text x="0" y="58" text-anchor="middle" fill="#22D3EE" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" font-weight="600" letter-spacing="1">AUTOMATION</text>
+    </g>
+
+    <g id="hero-module-ai" transform="translate(1080 365)">
+      <path d="M-34-17L-129-62" stroke="#8B5CF6" stroke-opacity="0.36" stroke-dasharray="3 6"/>
+      <circle r="34" fill="#12132D" stroke="#8B5CF6" stroke-opacity="0.78"/>
+      <path d="M-11-8L0-14L12-6L9 10L-5 14L-13 4Z" fill="none" stroke="#8B5CF6" stroke-width="1.2"/>
+      <path d="M-11-8L9 10M0-14L-5 14M12-6L-13 4" stroke="#8B5CF6" stroke-opacity="0.7"/>
+      <circle cx="-11" cy="-8" r="2.5" fill="#E6F1FF"/>
+      <circle cx="12" cy="-6" r="2.5" fill="#E6F1FF"/>
+      <circle cx="9" cy="10" r="2.5" fill="#E6F1FF"/>
+      <circle cx="-5" cy="14" r="2.5" fill="#E6F1FF"/>
+      <rect x="-28" y="43" width="56" height="22" rx="11" fill="#0B1226" stroke="#233455"/>
+      <text x="0" y="58" text-anchor="middle" fill="#A78BFA" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" font-weight="600" letter-spacing="1.2">AI</text>
+    </g>
+
+    <g id="hero-module-engineering" transform="translate(702 375)">
+      <path d="M29-20L123-71" stroke="#3B82F6" stroke-opacity="0.36" stroke-dasharray="3 6"/>
+      <circle r="34" fill="#0C1830" stroke="#3B82F6" stroke-opacity="0.78"/>
+      <path d="M-5-13L-17 0L-5 13M5-13L17 0L5 13" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="-47" y="43" width="94" height="22" rx="11" fill="#0B1226" stroke="#233455"/>
+      <text x="0" y="58" text-anchor="middle" fill="#60A5FA" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" font-weight="600" letter-spacing="0.8">ENGINEERING</text>
+    </g>
+
+    <g id="hero-orbit-nodes">
+      <circle cx="652" cy="161" r="5" fill="#050816" stroke="#22D3EE" stroke-width="1.5"/>
+      <circle cx="1144" cy="287" r="4" fill="#8B5CF6"/>
+      <circle cx="877" cy="498" r="4" fill="#3B82F6"/>
+      <circle cx="784" cy="172" r="3" fill="#22D3EE"/>
+      <circle cx="976" cy="334" r="3" fill="#8B5CF6"/>
+    </g>
+  </g>
+
+  <g id="hero-frame-meta" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.5" fill="#94A3B8" opacity="0.45">
+    <text x="48" y="58">QAO / PROFILE INTERFACE</text>
+    <text x="1030" y="512">BUILDING / 2026</text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="qao-sg-title qao-sg-desc">
+  <title id="qao-sg-title">QA Orbit symbol</title>
+  <desc id="qao-sg-desc">A unified QA monogram crossed by a precise orbital arc and a small signal node.</desc>
+  <defs>
+    <linearGradient id="qao-sg-mark" x1="45" y1="47" x2="207" y2="201" gradientUnits="userSpaceOnUse"><stop stop-color="#6D5DFB"/><stop offset=".48" stop-color="#3B82F6"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+    <linearGradient id="qao-sg-orbit" x1="32" y1="191" x2="224" y2="76" gradientUnits="userSpaceOnUse"><stop stop-color="#6D5DFB"/><stop offset=".52" stop-color="#3B82F6"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
+  </defs>
+  <g fill="url(#qao-sg-mark)">
+    <path fill-rule="evenodd" d="M94 42a62 62 0 1 0 0 124 62 62 0 0 0 0-124Zm0 24a38 38 0 1 1 0 76 38 38 0 0 1 0-76Z"/>
+    <path fill-rule="evenodd" d="M162 48h8l52 118h-26l-12-29h-44l-12 29h-26l52-118h8Zm0 39-14 31h28l-14-31Z"/>
+  </g>
+  <path d="M103 124c18 24 25 38 36 50 38-12 78-38 96-73" fill="none" stroke="url(#qao-sg-orbit)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="232" cy="94" r="7" fill="#5EEAD4" stroke="#050816" stroke-width="3"/>
+</svg>
