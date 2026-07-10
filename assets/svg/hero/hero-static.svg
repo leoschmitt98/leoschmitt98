@@ -109,8 +109,11 @@
       <circle class="hero-node" cx="0" cy="-29" r="3" fill="#3B82F6"/>
       <circle class="hero-node" cx="16" cy="-29" r="3" fill="#8B5CF6"/>
       <text x="0" y="3" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, Helvetica, system-ui, sans-serif" font-size="25" font-weight="750">QA ORBIT</text>
-      <text x="0" y="25" text-anchor="middle" fill="#22D3EE" font-family="Inter, Arial, Helvetica, system-ui, sans-serif" font-size="8.5" font-weight="650" letter-spacing="1">QUALITY INTELLIGENCE</text>
-      <text x="0" y="38" text-anchor="middle" fill="#B7C4D8" font-family="Inter, Arial, Helvetica, system-ui, sans-serif" font-size="8.5" font-weight="650" letter-spacing="1.8">SYSTEM</text>
+      <path d="M-30 21H30" stroke="#22D3EE" stroke-opacity="0.45"/>
+    </g>
+    <g id="hero-product-descriptor" font-family="Inter, Arial, Helvetica, system-ui, sans-serif">
+      <rect x="786" y="358" width="204" height="30" rx="15" fill="#0B1226" stroke="#22D3EE" stroke-opacity="0.5"/>
+      <text x="888" y="378" text-anchor="middle" fill="#C9F7FF" font-size="11.5" font-weight="700" letter-spacing="0.9">QUALITY INTELLIGENCE SYSTEM</text>
     </g>
 
     <g id="hero-module-automation" transform="translate(1030 121)">

@@ -168,4 +168,4 @@ O Hero possui duas variantes derivadas da mesma geometria:
 
 ### Estratégia de publicação
 
-O README permanece referenciando `hero-static.svg` até que `hero-animated.svg` seja publicado e observado no renderer real do GitHub. A versão animada não deve substituir o fallback apenas com base no teste local.
+O README referencia `hero-animated.svg` desde a validação pública inicial. `hero-static.svg` permanece como fallback completo caso o renderer do GitHub ou a preferência de movimento reduzido impeça a animação.
