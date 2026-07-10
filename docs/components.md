@@ -8,7 +8,7 @@ Este documento define o mapa inicial de componentes. Os nomes representam respon
 
 **Responsabilidade:** apresentar identidade, posicionamento e chamada principal sem detalhar todo o perfil.
 
-**Arquivos envolvidos:** `assets/svg/hero/hero-static.svg`, `assets/svg/hero/hero-animated.svg`, `docs/hero.md` e `README.md`.
+**Arquivos envolvidos:** `assets/svg/hero/hero-static.svg`, `assets/svg/hero/hero-animated.svg`, `assets/animations/hero/hero-animated.gif`, `docs/hero.md` e `README.md`.
 
 **Dependências:** identidade visual, especificação registrada em `docs/hero.md`, marca oficial definida em `docs/qa-orbit-brand-guide.md` e regras de acessibilidade. A primeira versão estática foi criada na Sprint 2 e ainda não foi integrada ao README; sua atualização com o símbolo oficial será uma sprint posterior.
 

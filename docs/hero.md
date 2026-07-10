@@ -143,6 +143,7 @@ O Hero possui duas variantes derivadas da mesma geometria:
 
 - `assets/svg/hero/hero-static.svg`: versão estática e fallback publicado no README.
 - `assets/svg/hero/hero-animated.svg`: versão com movimento sutil para validação no GitHub.
+- `assets/animations/hero/hero-animated.gif`: render final compatível com o README do GitHub.
 
 ### Ajustes tipográficos
 
@@ -157,15 +158,15 @@ O Hero possui duas variantes derivadas da mesma geometria:
 ### Movimento
 
 - Órbita externa: rotação linear de 40 segundos.
-- Órbita interna: rotação inversa de 28 segundos.
+- Órbita interna: rotação inversa de 20 segundos.
 - Núcleo: pulso entre 98,5% e 101,8% em 5 segundos.
-- Signal nodes: pulsos alternados de opacidade em 4,8 segundos.
-- Telemetria: deslocamento lento de dash em 12 segundos.
-- Módulos: flutuação independente entre 1,5 e 2 px, sem movimentar os grupos de texto separadamente.
+- Signal nodes: pulsos alternados de opacidade em 5 segundos.
+- Telemetria: deslocamento lento de dash em 10 segundos.
+- Módulos: flutuação independente entre 1,5 e 2 px em ciclos de 5, 8 e 10 segundos, sem movimentar os grupos de texto separadamente.
 - Grid, copy e CTA permanecem estáticos.
 
 `prefers-reduced-motion: reduce` desativa todas as animações e preserva a composição completa.
 
 ### Estratégia de publicação
 
-O README referencia `hero-animated.svg` desde a validação pública inicial. `hero-static.svg` permanece como fallback completo caso o renderer do GitHub ou a preferência de movimento reduzido impeça a animação.
+O renderer do README do GitHub não reproduziu o CSS interno do SVG no teste público. O SVG animado permanece como fonte, e a publicação usa um GIF de 120 frames, 40 segundos e 1000 × 467 px renderizado a partir dele. Um elemento `<picture>` entrega `hero-static.svg` quando `prefers-reduced-motion: reduce` está ativo.
