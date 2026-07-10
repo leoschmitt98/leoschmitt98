@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/svg/hero/hero.svg" width="100%" alt="Leonardo Schmitt — QA Engineer, automation specialist, and full-stack builder creating QA Orbit." />
+  <img src="assets/svg/hero/hero-static.svg" width="100%" alt="Leonardo Schmitt — QA Engineer, automation specialist, and full-stack builder creating QA Orbit." />
 </div>
 
 <br />

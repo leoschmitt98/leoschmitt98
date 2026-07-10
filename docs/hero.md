@@ -136,3 +136,36 @@ Na integração futura, o texto essencial também existirá em Markdown acessív
 - Título e descrição acessíveis dentro do SVG.
 - Elementos decorativos agrupados separadamente.
 - Nenhum componente fora do Hero implementado.
+
+## Refinamento de legibilidade e movimento
+
+O Hero possui duas variantes derivadas da mesma geometria:
+
+- `assets/svg/hero/hero-static.svg`: versão estática e fallback publicado no README.
+- `assets/svg/hero/hero-animated.svg`: versão com movimento sutil para validação no GitHub.
+
+### Ajustes tipográficos
+
+- Nome: 54 → 60 px, peso 700 → 750 e tracking menos negativo.
+- Slogan: 27 → 30 px, peso 500 → 600 e branco de maior contraste.
+- Apoio: 16 → 18 px, peso 400 → 500, line-height visual de 29 px.
+- CTA: 11 → 13 px, fonte sans-serif e área de 220 × 48 px.
+- QA Orbit: 22 → 25 px.
+- Labels Automation, Engineering e AI: 8,5 → 10,5/11 px com fonte sans-serif.
+- Coordenadas, sinal numérico e metadata de build foram removidos por não agregarem significado.
+
+### Movimento
+
+- Órbita externa: rotação linear de 40 segundos.
+- Órbita interna: rotação inversa de 28 segundos.
+- Núcleo: pulso entre 98,5% e 101,8% em 5 segundos.
+- Signal nodes: pulsos alternados de opacidade em 4,8 segundos.
+- Telemetria: deslocamento lento de dash em 12 segundos.
+- Módulos: flutuação independente entre 1,5 e 2 px, sem movimentar os grupos de texto separadamente.
+- Grid, copy e CTA permanecem estáticos.
+
+`prefers-reduced-motion: reduce` desativa todas as animações e preserva a composição completa.
+
+### Estratégia de publicação
+
+O README permanece referenciando `hero-static.svg` até que `hero-animated.svg` seja publicado e observado no renderer real do GitHub. A versão animada não deve substituir o fallback apenas com base no teste local.
